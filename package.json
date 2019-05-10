@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "crypto-js": "^3.1.9-1",
-    "faker": "^4.1.0"
+    "faker": "^4.1.0",
+    "napi-crypto": "^1.2.0"
   }
 }

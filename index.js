@@ -23,3 +23,10 @@ for( email of sampleData){
 }
 end = Date.now() - start;
 console.log(`[native-crypto] : ${end}`);
+
+
+const NapiCrypto = require('napi-crypto');
+
+email = 'Mohan.Liu@careerbuilder.com';
+console.log(ncrypto.createHash('sha256').update(email).digest('hex'));
+console.log(crypto_js256(email).toString());
